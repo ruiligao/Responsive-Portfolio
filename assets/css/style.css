@@ -141,7 +141,7 @@ footer div {
 
 @media screen and (max-width:980px){
     .container {
-        width: 100%;
+        width: calc(100% - 30px);
         margin-left:30px;
     }
     .content { 
@@ -200,7 +200,7 @@ footer div {
     
     
     .container {
-        width: 100%;;
+        width: 100%;
     }
     .content {
         width: 100%;

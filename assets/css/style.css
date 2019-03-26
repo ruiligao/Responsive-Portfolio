@@ -62,49 +62,44 @@ h2 {
     margin: 15px 20px 15px 0;
     width: 120px;
 }
-
+#explaination {
+    font-size: 24px;
+}
+ 
 .img {
     float: left;
 }
 
-.pic{
+.pic {
     width: 350px;
     height: 350px;
 }
 .title {
-
     position: relative;
-    top: -50Px;
     padding: 1px;
     background-color:rgb(74, 170, 165);
     width: 350px;
     color: white;
     text-align: center;
 }
-
 .img-1 {
     display:inline-block;
     padding: 20px 20px 20px 0;
 }
-
-
 .ctitle {
     font-size: 18px;
     color: rgb(110, 109, 109);
 }
-
  .info {
     font-size: 12px;
     color: rgb(110, 109, 109);
     padding: 10px;
     border:1px solid gray;
  }
- 
  .form {
      color: rgb(110, 109, 109);
      margin-top: 20px;
  }
-
  .form input[type="text"],
  .form textarea{
      margin: 5px 0 15px 0;
@@ -114,11 +109,9 @@ h2 {
      border: solid 1px #eee;
      font-size: 0.8em;
  }
-
  .form textarea{
     height: 120px;
  }
-
 .form input[type="submit"]{
     background-color: rgb(74, 170, 165);
     color: white;
@@ -130,7 +123,6 @@ footer {
     background-color: rgb(74, 170, 165);
     padding-top: 7px;
 }
-
 footer div {
     background-color: rgb(102, 102, 102);
     color: white;
@@ -138,7 +130,6 @@ footer div {
     padding: 20px;
     font-size: 0.8em;
 }
-
 @media screen and (max-width:980px){
     .container {
         width: calc(100% - 30px);
@@ -166,7 +157,6 @@ footer div {
         margin-bottom: 10px;
     }  
 }
-
 @media screen and (max-width:768px){
     .content {
         width: 100%;
@@ -186,7 +176,6 @@ footer div {
         padding-right:30px;
     }
 } 
-
  @media screen and (max-width:640px){
     
     .content {

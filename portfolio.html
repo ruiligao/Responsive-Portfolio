@@ -1,72 +1,199 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
-    <title>Portfolio</title>
+    <title>Ruili Gao</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
+
 <body>
     <div class="container">
         <h1>Ruili Gao</h1>
         <nav>
-            <a class="nav" href="index.html">About</a>
-            <a class="nav" href="portfolio.html">Portfolio</a>
-            <a class="nav" href="contact.html">Contact</a>
+            <a class="nav" href="#about">About</a>
+            <a class="nav" href="#portfolio">Portfolio</a>
+            <a class="nav" href="#footer">Contact</a>
         </nav>
     </div>
+
     <div class="box">
-        <div class="content">
-            <h2>Portfolio</h2>
-            <hr>
-            <div>
+        <div>
+            <div class="content">
+                <h2 class="text-center" id="about">About Me</h2>
+                <hr>
                 <div>
-                    <p class="explaination">Below you can see some project I've been working on lately. </p>
+                    <img id="img" src="assets/images/rg.jpg">
+                    <p>I am a full-stack web developer with a passion for creating efficient, user-friendly
+                        applications.. I am excellent at problem solving, able to overcome challenges quickly, and
+                        thrive when working as part of a team
+                        <p>Dev strengths: HTML, CSS, JavaScript, jQuery, Handlebar, Bootstrap, MySQL, Firbase,
+                            Sequelize, MERN stack (Mongo, Express, React, Node), REST, UI design. </p>
                 </div>
-                <div class="img-1">
-                        <img  class="pic" src="assets/images/1.png">
-                        <div class="title">
-                            <a class="link mb-2"href="https://github.com/ruiligao/TriviaGame">GitHub-Trivia Game</a>
+            </div>
+            <div class="content">
+                <hr>
+                <div id="portfolio">
+                    <h2 class="text-center">Projects</h2>
+                    <div class="project" id="project1">
+                        <div class="row">
+                            <div class="projecttilte"><strong>Tannin</strong>
+                                <a title="source code" href="https://github.com/leifaesoph/Tannin">
+                                    <img class="icon" src="assets/images/github.png" width=25 height=25 /></a>
+                                <a title="git page" href="https://leifaesoph.github.io/Tannin/"><img class="icon"
+                                        src="assets/images/laptop.png" width=25 height=25 /></a>
+                            </div>
+                            <a href="https://leifaesoph.github.io/Tannin/" target="_blank"><img
+                                    class="projectImage pull-right" alt="projectImage"
+                                    src="https://raw.githubusercontent.com/leifaesoph/Tannin/development/tannin-sign_in.gif" />
+                          </a>
+                            <p> Tannin is a react application designed to help restaurant management educate and test
+                                their
+                                staff on wine knowledge for their current wine list.<br>
+                                This app has two distinct interfaces: Admin/Manager--Create and update the restaurant
+                                wine collection AND employee;
+                                Employee--View the restaurant wine collection and educate his/herself by doing the quiz.
+                            </p>
                         </div>
-                        <div class="title">
-                            <a href="https://ruiligao.github.io/TriviaGame/">GitHub Pages-Trivia Game</a>
+                        <hr>
+                        <div class="row">
+                            <div class="projecttilte"><strong>UO</strong>
+                                <span>
+                                    <a title="source code" href="https://github.com/leifaesoph/Project-2"
+                                        target="_blank">
+                                        <img class="icon" src="assets/images/github.png" width=25 height=25 /></a>
+                                </span>
+                                <span>
+                                    <a title="git page" href="https://sleepy-meadow-86979.herokuapp.com/"
+                                        target="_blank">
+                                        <img class="icon" src="assets/images/laptop.png" width=25 height=25 /></a>
+                                </span>
+                            </div>
+                            <a href="https://sleepy-meadow-86979.herokuapp.com/" target="_blank">
+                                <img class="projectImage" alt="projectImage" src="assets/images/UO.png" /></a>
+                            <p> UO is a full-stack web application for people who need to keep track of the money they
+                                have lent and borrowed from friends and family.
+                                The UO motto is: Keep your friends | Keep your money. Our concept is dedicated to making
+                                sure that borrowers are held accountable for the money that they owe while allowing
+                                lenders to avoid the stress and discomfort of bringing up money issues with people in
+                                your personal life.
+                                With it's in app notifications, automated emails, open transaction logs, and balance
+                                tracker, UO makes money easy and objective.
+                            </p>
                         </div>
-                </div>
-                <div class="img-1">
-                        <img class="pic" src="assets/images/3.png">
-                        <div class="title">
-                            <a href="https://github.com/ruiligao/Train-Scheduler">GitHub-Train Scheduler</a>
+                        <hr>
+                        <div class="row">
+                            <div class="projecttilte"><strong>Clicky Game</strong>
+                                <span>
+                                    <a title="source code" href="https://github.com/ruiligao/Clicky-Game"
+                                        target="_blank">
+                                        <img class="icon" src="assets/images/github.png" width=25 height=25 /></a>
+                                </span>
+                                <span>
+                                    <a title="git page" href="https://ruiligao.github.io/Clicky-Game/" target="_blank">
+                                        <img class="icon" src="assets/images/laptop.png" width=25 height=25 /></a>
+                                </span>
+                            </div>
+                            <a href="https://ruiligao.github.io/Clicky-Game/" target="_blank">
+                                <img class="projectImage" alt="projectImage" src="assets/images/Click Game.png" />
+                          </a>
+                            <p> This is a memory gaming web application that utilizes React for the front end.<br>
+                                This game tests the player's memory retention ability by displaying sixteen unique image
+                                blocks,
+                                and challenges the player to click on each block only once to win!it keeps a score of
+                                the user, ans restart the score when the user clickes on the image more than once. <br>
+                                Have fun :-)
+                            </p>
                         </div>
-                        <div class="title">
-                            <a href=" https://ruiligao.github.io/Train-Scheduler/">GitHub pages-Train Scheduler</a>
+                        <hr>
+                        <div class="row">
+                            <div class="projecttilte"><strong>Trivia Game</strong>
+                                <span>
+                                    <a title="source code" href="https://github.com/ruiligao/TriviaGame"
+                                        target="_blank">
+                                        <img class="icon" src="assets/images/github.png" width=25 height=25 /></a>
+                                </span>
+                                <span>
+                                    <a title="git page" href="https://ruiligao.github.io/TriviaGame/" target="_blank">
+                                        <img class="icon" src="assets/images/laptop.png" width=25 height=25 /></a>
+                                </span>
+                            </div>
+                            <a href="https://ruiligao.github.io/TriviaGame/" target="_blank">
+                                <img class="projectImage" alt="projectImage" src="assets/images/trivia game.png" />
+                          </a>
+                            <p> This is a front-end web application that is built with HTML, CSS, Javascriopt, jQuery.
+                                And Javascript timing events were used to create a quiz with timed questions. <br>
+                                Users have 30 second to answer the quesitons and at the end of the game, a summary of
+                                the numbers of correct answers and incorrect answers will show on the screen.<br>
+                                This is not only a game application but also an education app which let the user learn
+                                the interesting staff through a fun gameing method.
+                            </p>
                         </div>
-                </div>
-                <div class="img-1">
-                        <img class="pic" src="assets/images/4.png">
-                        <div class="title">
-                            <a href="https://github.com/bt98199/Project-1">GitHub-Jump Bikes</a>
+                        <hr>
+                        <div class="row">
+                            <div class="projecttilte"><strong>Google Books Search</strong>
+                                <span>
+                                    <a title="source code" href="https://github.com/ruiligao/Google-Books-Search"
+                                        target="_blank">
+                                        <img class="icon" src="assets/images/github.png" width=25 height=25 /></a>
+                                </span>
+                                <span>
+                                    <a title="git page" href="https://powerful-tor-87105.herokuapp.com/"
+                                        target="_blank">
+                                        <img class="icon" src="assets/images/laptop.png" width=25 height=25 /></a>
+                                     </span>
+                            </div>
+                            <a href="https://powerful-tor-87105.herokuapp.com/" target="_blank">
+                                <img class="projectImage" alt="projectImage" src="assets/images/google books.png" />
+                          </a>
+                            <p> This is a full-stack react based google bookd search web application.<br>
+                                MongoDB was used to store users' saved books.<br>
+                                Google Bookes API was used for books lovers to search for their favorite books. By using
+                                this application, users can view their search books on the google books store, and can
+                                also save them to their library. <br>
+                            </p>
                         </div>
-                        <div class="title">
-                            <a href="https://bt98199.github.io/Project-1/">GitHub pages-Jump Bikes</a>
+                        <hr>
+                        <div class="row">
+                            <div class="projecttilte"><strong>Crystals Collector</strong>
+                                <span>
+                                    <a title="source code" href="https://github.com/ruiligao/unit-4-game"
+                                        target="_blank">
+                                        <img class="icon" src="assets/images/github.png" width=25 height=25 /></a>
+                                </span>
+                                <span>
+                                    <a title="git page" href="https://ruiligao.github.io/unit-4-game/"
+                                        target="_blank">
+                                        <img class="icon" src="assets/images/laptop.png" width=25 height=25 /></a>
+                                     </span>
+                            </div>
+                            <a href="https://ruiligao.github.io/unit-4-game/" target="_blank">
+                                <img class="projectImage" alt="projectImage" src="assets/images/2.png" />
+                          </a>
+                            <p> A simple game that shows all the glory of jQuery, using simple number-guessing and randomized strategy. <br>
+                                This Crystal Collector is built with HTML/CSS, Bootstrap, Javascript and jQuery <br>
+                                Users will start with a random number and four crystals with signed random value. The user need to match the target number by clicking the crystals. 
+
+                            </p>
                         </div>
-                </div>
-                <div class="img-1">
-                        <img class="pic" src="assets/images/2.png">
-                        <div class="title">
-                            <a href="https://github.com/ruiligao/unit-4-game">GitHub-Crystal Collector</a>
-                        </div>
-                        <div class="title">
-                            <a href=" https://ruiligao.github.io/unit-4-game/">GitHub pages-Crystal Collector</a>
-                        </div>
+                        <hr>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <footer>
-        <div>
-            Copyright©
-        </div>
-    </footer>
+        <footer id="footer">
+            <div class="mt-3, mb-3">
+                <div class="footerheadtext-white display-h2">Ruili Gao 2019</div>
+                <div class="mb-4 link">
+                    <a href="mailto: ruiligao@gmail.com">Email</a>
+                    |
+                    <a href="https://github.com/ruiligao" target="_blank">Github</a>
+                    |
+                    <a href="https://www.linkedin.com/in/ruili-gao-397b47aa/">LinkedIn</a>
+                </div>
+            </div>
+        </footer>
 </body>
 
 </html>
